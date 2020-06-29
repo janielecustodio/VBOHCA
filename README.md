@@ -8,10 +8,11 @@ The files provided in this repository are the online supplement to the paper *Sp
 ### auxiliary
 Stores auxiliary SAS data files.
 ### input
-Stores input data files, obtained from the [Open VB data portal](https://data.vbgov.com/). Users must download three data files, which should be saved as .xslx: EMS_Calls_For_Service, Fire_Calls_For_Service, and Police_Calls_For_Service. These files are processed in the SAS program, which generates the OHCA occurrences for a given time period. Details of the analysis can be found in the aforementioned paper (Custodio and Lejeune, 2020)
+Stores input data files, obtained from the [Open VB data portal](https://data.vbgov.com/). Users must upload three data files, which should be saved as .xslx: EMS_Calls_For_Service, Fire_Calls_For_Service, and Police_Calls_For_Service. These files are processed by the SAS program, which generates the OHCA occurrences for a given time period. Details of the analysis can be found in Custodio and Lejeune, 2020.
 
 ### Random Sample
 Contains a random sample generated using the MATLAB code available with this package.
+
 ### Shortest Paths
 The folder "Shapefiles" shapefiles used to calculate the shortest paths using the road distances. Input files were obtained from the [VB Open GIS portal](https://gis.data.vbgov.com/) and [US Census Bureau](https://data.gov/organization/census-gov/). The QGIS Project VBOHCA contains the map used in the analysis.
 
