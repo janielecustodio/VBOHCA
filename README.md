@@ -17,7 +17,7 @@ Contains a random sample generated using the MATLAB code available with this pac
 The folder *Shapefiles* shapefiles used to calculate the shortest paths using the road distances for the sample in the folder *Random Sample*. Input files were obtained from the [VB Open GIS portal](https://gis.data.vbgov.com/) and [US Census Bureau](https://data.gov/organization/census-gov/). The QGIS Project file *VBOHCA_Sample1* contains the map used in the analysis.
 
 ## Random Sample Generation
-The MATLAB file *test_cases.m* can be used to generate random instances from the VBOHCAR data set.
+The MATLAB file *test_cases.m* can be used to generate random instances from the VBOHCAR data set as it is. If users choose to consider a different time period, the VBOHCAR Excel file must be adjusted so that the sheet *Distances* includes all OHCA occurrences and links to the road distances. Additionally, if a different time period is used, users must also adjust the MATLAB source code so that no errors occur when reading the data sets.
 
 ## Virginia Beach OHCA Dispatch Data Set (VBOHCAR)
 The Excel file *VBOHCAR.xlsx* contains the final data set of all OHCAs registered in the city of Virginia Beach from January 1, 2017, until June 30, 2019. 
