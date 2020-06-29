@@ -29,4 +29,6 @@ The Excel file *VBOHCAR.xlsx* contains the final data set of all OHCAs registere
 The SAS file *data_consolidation.sas* was used to clean and analyze the raw input data sets and to generate the list of OHCAs and response times, as well as spatial information for each OHCA incident. This file can be used to analyze any time period, depending on the input files uploaded to the folder *input*. Users can use the directory *C://Online_Supplement* to save the folders *input* and *auxiliary*. If using a customized directory, users must modify the libnames in the SAS source code so that the correct files are referenced.
 
 
+This project is licensed under the terms of the MIT license.
+
 
