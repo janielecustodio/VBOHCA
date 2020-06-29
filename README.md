@@ -1,11 +1,15 @@
 # VBOHCA
-Virginia Beach OHCA -- Online Supplement
+Online Supplement -- Spatiotemporal Data Set for Out-of-Hospital Cardiac Arrests (Custodio and Lejeune, 2020)
+
+## How to use these files
+The files provided in this repository are the online supplement to the paper *Spatiotemporal Data Set for Out-of-Hospital Cardiac Arrests (Custodio and Lejeune, 2020)*. The files have been generated to cover OHCA incidents recorded by the city of Virginia Beach from January 1, 2017 to June 30, 2019. However, the SAS program provided in this repository can be used to process data for different time periods, depending on the files uploaded to the folder *input*.
 
 ## Folders
 ### auxiliary
 Stores auxiliary SAS data files.
 ### input
-Stores input data files, obtained from the [Open VB data portal](https://data.vbgov.com/).
+Stores input data files, obtained from the [Open VB data portal](https://data.vbgov.com/). Users must download three data files, which should be saved as .xslx: EMS_Calls_For_Service, Fire_Calls_For_Service, and Police_Calls_For_Service. These files are processed in the SAS program, which generates the OHCA occurrences for a given time period. Details of the analysis can be found in the aforementioned paper (Custodio and Lejeune, 2020)
+
 ### Random Sample
 Contains a random sample generated using the MATLAB code available with this package.
 ### Shortest Paths
@@ -22,3 +26,6 @@ The Excel file VBOHCAR.xlsx contains the final data set of all OHCAs registered 
 
 ## Data Processing
 The SAS file data_consolidation.sas was used to clean and analyze the raw input data sets and to generate the list of OHCAs and response times, as well as spatial information for each OHCA occurrence.
+
+
+
