@@ -246,7 +246,7 @@ QUIT;
 
 /* Export VBOHCAR as Excel */
 PROC EXPORT DATA=mydata.VBOHCAR
-            OUTFILE='C:\Online_Supplement\VBOHCAR.xlsx'
+            OUTFILE='C:\Online_Supplement\OHCAs.xlsx'
 			DBMS=EXCEL REPLACE;
 			SHEET='OHCAs';
 RUN; 
